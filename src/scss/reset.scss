@@ -1,0 +1,40 @@
+
+@import "core/_setting.scss";
+@import "core/_css3.scss";
+@import "core/_grid.scss";
+@import "core/_media-queries.scss";
+@import "core/_mixin.scss";
+@import "core/_reset.scss";
+html,body{
+    margin:0;
+    padding:0;
+}
+h1{
+    background: $blue;
+    color: $white;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    width:600px;
+    height:72px;
+    line-height: 72px;
+    font-size:26px;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding:0 20px;
+    span{
+        flex:1;
+        height:72px;
+        line-height: 72px;
+        color: $white;
+    }
+}
+h2{
+    width:80%;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+    background: $primary;
+    color: $white;
+    @include center-block;
+}

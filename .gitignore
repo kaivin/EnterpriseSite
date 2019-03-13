@@ -1,0 +1,9 @@
+# dev
+.DS_Store
+node_modules/
+dist/
+
+
+# config
+package-lock.json
+
